@@ -1,0 +1,115 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wawa Yachaspa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a Wawa Yachaspa!</h1>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Explora los Juegos</h2>
+            <ul>
+                <li><a href="#numeros-colores">Números y Colores</a></li>
+                <li><a href="#animales">Animales</a></li>
+                <li><a href="#cuerpo-humano">Cuerpo Humano</a></li>
+            </ul>
+        </section>
+    <!-- Números del 1 al 10 -->
+    <div>
+        <img src="images/manzana.png" alt="1 manzana" onclick="playAudio('Jukaudio/Juk.mp3')">
+        <p>1: Juk</p>
+    </div>
+    <div>
+        <img src="images/pajaros.png" alt="2 pájaros" onclick="playAudio('iskay')">
+        <p>2: Iskay</p>
+    </div>
+    <div>
+        <img src="images/flores.png" alt="3 flores" onclick="playAudio('kimsa')">
+        <p>3: Kimsa</p>
+    </div>
+    <div>
+        <img src="images/arboles.png" alt="4 árboles" onclick="playAudio('tawa')">
+        <p>4: Tawa</p>
+    </div>
+    <div>
+        <img src="images/estrellas.png" alt="5 estrellas" onclick="playAudio('pisqa')">
+        <p>5: Pisqa</p>
+    </div>
+    <div>
+        <img src="images/gatos.png" alt="6 gatos" onclick="playAudio('suqta')">
+        <p>6: Suqta</p>
+    </div>
+    <div>
+        <img src="images/casas.png" alt="7 casas" onclick="playAudio('qanchis')">
+        <p>7: Qanchis</p>
+    </div>
+    <div>
+        <img src="images/piedras.png" alt="8 piedras" onclick="playAudio('pusaq')">
+        <p>8: Pusaq</p>
+    </div>
+    <div>
+        <img src="images/pajarosss.png" alt="9 pájaros" onclick="playAudio('jisq'un')">
+        <p>9: Jisq'un</p>
+    </div>
+    <div>
+        <img src="images/soles.png" alt="10 soles" onclick="playAudio('chunka')">
+        <p>10: Chunka</p>
+    </div>
+  <!-- Función para reproducir los audios -->
+  <script>
+    function playAudio(name) {
+        const audio = new Audio(`audios/${name}.mp3`);
+        audio.play();
+    }
+</script>
+</body>
+</html>
+</section>
+<section id="colores">
+    <h2>Colores en Quechua</h2>
+    <div>
+        <img src="rojo.png" alt="Rojo" onclick="playAudio('puka')">
+        <p>Rojo: puka</p>
+    </div>
+    <div>
+        <img src="azul.png" alt="Azul" onclick="playAudio('anqas')">
+        <p>Azul: Anqas</p>
+    </div>
+    <div>
+        <img src="verde.png" alt="Verde" onclick="playAudio('q'umir')">
+        <p>Verde: K'illu</p>
+    </div>
+    <div>
+        <img src="amarillo.png" alt="Amarillo" onclick="playAudio('qillu')">
+        <p>Amarillo: Q'illu</p>
+    </div>
+    <div>
+        <img src="blanco.png" alt="Blanco" onclick="playAudio('yuraq')">
+        <p>Blanco: Yuraq</p>
+    </div>
+    <div>
+        <img src="negro.png" alt="Negro" onclick="playAudio('yana')">
+        <p>Negro: Yana</p>
+    </div>
+    <div>
+        <img src="morado.png" alt="Morado" onclick="playAudio('kulli')">
+        <p>Morado: Kulli</p>
+    </div>
+    <div>
+        <img src="rosa.png" alt="Rosa" onclick="playAudio('panti')">
+        <p>Rosa: Panti</p>
+    </div>
+    <div>
+        <img src="naranja.png" alt="Naranja" onclick="playAudio('laranja')">
+        <p>Naranja: Laranja</p>
+    </div>
+    <div>
+        <img src="gris.png" alt="Gris" onclick="playAudio('uqi')">
+        <p>Gris: Uqi</p>
+    </div>
+</section>
